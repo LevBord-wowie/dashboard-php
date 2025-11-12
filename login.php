@@ -20,6 +20,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html>
+<head>
+        <meta charset='UTF-8'>
+        <title>Logowanie</title>
+
+        <link href="cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
     <div class="login-box">
         <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
@@ -35,4 +42,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </body>
 </html>
+
 
